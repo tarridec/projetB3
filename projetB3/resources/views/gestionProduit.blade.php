@@ -8,8 +8,16 @@
     </head>
 
     <body>
-        <h1>Produit Page</h1>
-        
-        @include('partials.navbar')
+        <div>@include('partials.navbar')<div>
+
+        <h1>Gestion Produit Page</h1>
+
+        <!-- 
+        *
+        * Body
+        *
+        -->
+
+        <div>@include('partials.footer')<div>
     </body>
 </html>

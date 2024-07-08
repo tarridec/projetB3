@@ -1,13 +1,12 @@
 <ul>
     <li><a href="{{ route('index') }}">Acceuil</a></li>
-
     <li>
         <a href="#">Gestion</a>
         <ul>
             <li><a href="{{ route('gestionProduit') }}">Produit</a></li>
-            <li><a href="{{ route('gestionFacture') }}">Facture</a></li>
+            <li><a href="{{ route('gestionClient') }}">Client</a></li>
         </ul>
     </li>
-    
     <li><a href="{{ route('shop') }}">Boutique</a></li>
+    <li><a href="{{ route('signin') }}">Se connecter</a></li>
 </ul>

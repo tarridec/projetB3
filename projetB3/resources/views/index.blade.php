@@ -8,8 +8,16 @@
     </head>
 
     <body>
-        <h1>Index Page</h1>
+        <div>@include('partials.navbar')<div>
 
-        @include('partials.navbar')
+        <h1>Acceuil Page</h1>
+
+        <!-- 
+        *
+        * Body
+        *
+        -->
+
+        <div>@include('partials.footer')<div>
     </body>
 </html>
