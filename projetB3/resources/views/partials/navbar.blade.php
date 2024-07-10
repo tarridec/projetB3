@@ -8,5 +8,5 @@
         </ul>
     </li>
     <li><a href="{{ route('shop') }}">Boutique</a></li>
-    <li><a href="{{ route('signin') }}">Se connecter</a></li>
+    <li><a href="{{ route('signup') }}">Se connecter</a></li>
 </ul>
