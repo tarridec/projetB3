@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div>@include('partials.navbar')<div>
+        <div>@include('partials.navbar')</div>
 
         <h1>Acceuil Page</h1>
 
@@ -18,6 +18,6 @@
         *
         -->
 
-        <div>@include('partials.footer')<div>
+        <div>@include('partials.footer')</div>
     </body>
 </html>
