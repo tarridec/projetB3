@@ -12,9 +12,11 @@
 
     <div class="container mx-auto p-4">
       <div class="flex justify-end p-4">
-        <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded" href="{{ route('panier') }}">
-          <img src="{{ asset('images/panier.png') }}" alt="Panier" class="w-6 h-6 text-white">
-        </button>
+        <a href="{{ route('panier') }}">
+          <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+            <img src="{{ asset('images/panier.png') }}" alt="Panier" class="w-6 h-6 text-white">
+          </button>
+        </a>
       </div>
 
       <!-- Filtres -->
