@@ -1,4 +1,4 @@
-<ul class="flex justify-around p-6 bg-blue-500">
+<ul class="flex justify-around p-3 bg-blue-500">
     <li class="text-white relative group">
         <a href="{{ route('index') }}" class="nav-link">Accueil</a>
     </li>
@@ -12,9 +12,19 @@
     <li class="text-white relative group">
         <a href="{{ route('shop') }}" class="nav-link">Boutique</a>
     </li>
-    <li class="text-white relative group">
-        <a href="{{ route('signin') }}" class="nav-link">Se connecter</a>
-    </li>
+    @if(Auth::check())
+        <li class="text-white relative group">
+            <a class="nav-link">{{ Auth::user()->username }} <span class="icon">▼</span></a>
+            <ul class="dropdown-menu absolute hidden bg-blue-500 group-hover:flex flex-col">
+                <li class="text-white p-2"><a href="{{ route('profile') }}">Mon profil</a></li>
+                <li class="text-white p-2"><a href="{{ route('index') }}">Se déconnecter</a></li>
+            </ul>
+        </li>
+    @else
+        <li class="text-white relative group">
+            <a href="{{ route('signin') }}" class="nav-link">Se connecter</a>
+        </li>
+    @endif
 </ul>
 
 <style>
@@ -85,5 +95,4 @@ ul {
     display: inline-block;
     transition: transform 0.3s ease;
 }
-
 </style>

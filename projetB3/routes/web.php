@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -68,6 +69,18 @@ Route::get('/politiqueConfidentialite', function () {
     return view('politiqueConfidentialite');
 })->name('politiqueConfidentialite');
 
+/* Confirmation de paiement */
+Route::get('/confirmationPaiement', function () {
+    return view('confirmationPaiement');
+})->name('confirmationPaiement');
+
+/* Page de profil */
+Route::get('/profile', [AuthController::class, 'profile'])->name('profile')->middleware('auth');
+Route::get('/profile/edit', [AuthController::class, 'editProfile'])->name('profile.edit')->middleware('auth');
+Route::put('/profile', [AuthController::class, 'updateProfile'])->name('profile.update')->middleware('auth');
+Route::delete('/profile/delete', [AuthController::class, 'destroy'])->name('profile.delete');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+
 
 /* 
     Je ne sais pas si c'est bon, ça devrait ressembler à ça pour avoir la page d'un produit en particulier
@@ -103,4 +116,12 @@ Route::prefix('/produits')->name('detailProduit.')->group(function () {
     ])->name('show');
 });
 
+// Authentification
 
+Route::post('login', [AuthController::class, 'login']);
+Route::post('register', [AuthController::class, 'register']);
+
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('logout', [AuthController::class, 'logout']);
+    Route::get('user', [AuthController::class, 'user']);
+});
