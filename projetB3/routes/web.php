@@ -41,6 +41,11 @@ Route::get('/panier', function () {
     return view('panier');
 })->name('panier');
 
+/* Facture */
+Route::get('/facture', function () {
+    return view('facture');
+})->name('facture');
+
 
 /* Gestion des produits */
 Route::get('/gestionProduit', function () {

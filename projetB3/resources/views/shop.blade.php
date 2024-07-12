@@ -60,10 +60,122 @@
           <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
 
           <div class="p-4">
-            <h2 class="text-xl font-semibold mb-2">Nom du Jeu</h2>
+            <h2 class="text-xl font-semibold mb-2">Hogwart Legacy: L'Héritage de Poudlard</h2>
+
+            <p class="text-gray-600 mb-2">Genre: Action, RPG</p>
+            <p class="text-gray-600 mb-4">Prix: 20€</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Sea of Thieves</h2>
+
+            <p class="text-gray-600 mb-2">Genre: Action, Aventure</p>
+            <p class="text-gray-600 mb-4">Prix: 19,99€</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Pixel Game</h2>
+
+            <p class="text-gray-600 mb-2">Genre: Aventure</p>
+            <p class="text-gray-600 mb-4">Prix: 4.99€</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Noctis</h2>
+
+            <p class="text-gray-600 mb-2">Genre: Platformer</p>
+            <p class="text-gray-600 mb-4">Prix: Gratuit</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Star Wars Battlefront II</h2>
 
             <p class="text-gray-600 mb-2">Genre: Action</p>
-            <p class="text-gray-600 mb-4">Prix: 29,99 €</p>
+            <p class="text-gray-600 mb-4">Prix: 49.99€</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Jeu du loup</h2>
+
+            <p class="text-gray-600 mb-2">Genre: Arcade</p>
+            <p class="text-gray-600 mb-4">Prix: 5€</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Minecraft</h2>
+
+            <p class="text-gray-600 mb-2">Genre: SandBox</p>
+            <p class="text-gray-600 mb-4">Prix: 14,99€</p>
+            
+            <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
+              Acheter
+            </button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <!-- Quand on aura des données, jouer avec SQL pour avoir les jeux -->
+          <img src="https://via.placeholder.com/300" alt="Jeu vidéo" class="w-full h-48 object-cover">
+
+          <div class="p-4">
+            <h2 class="text-xl font-semibold mb-2">Dune 2000</h2>
+
+            <p class="text-gray-600 mb-2">Genre: Stratégie</p>
+            <p class="text-gray-600 mb-4">Prix: 39.99€</p>
             
             <button class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded block w-full">
               Acheter
